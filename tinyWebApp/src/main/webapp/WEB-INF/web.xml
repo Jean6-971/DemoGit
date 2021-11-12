@@ -3,7 +3,7 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-  <display-name>Archetype Created Web Application</display-name>
+  <!-- <display-name>Archetype Created Web Application</display-name>
   <servlet>
   	<servlet-name>LoginVerify</servlet-name>
   	<display-name>LoginVerify</display-name>
@@ -13,5 +13,8 @@
   <servlet-mapping>
   	<servlet-name>LoginVerify</servlet-name>
   	<url-pattern>/LoginVerify</url-pattern>
-  </servlet-mapping>
+  </servlet-mapping> -->
+  <welcome-file-list>
+  	<welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
 </web-app>
